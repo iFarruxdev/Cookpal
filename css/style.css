@@ -1,0 +1,480 @@
+/* Montserrat  60 */
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* Mina */
+@import url(https://fonts.googleapis.com/css2?family=Mina:wght@100;200;300;400;500;600;700&display=swap);
+
+/* Montez */
+@import url(https://fonts.googleapis.com/css2?family=Montez&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    width: 100%;
+    height: 600px; 
+}
+header nav{
+    width: 100%;
+    height:40px;
+    background-color: black;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    color: #fff;
+}
+header nav ul{
+    display: flex; 
+    gap: 30px;
+    list-style: none;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 590;
+}
+header nav .registration{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    font-weight: 590;
+}
+header nav .registration .regis{
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+    cursor: pointer;
+}
+header nav .registration .regis p i{
+    color: #509E2F;
+}
+header nav .registration .login{
+    display: flex; 
+    align-items: center; 
+    gap: 5px;
+    cursor: pointer;
+}
+header nav .registration .login p i{
+    color: #509E2F;
+}
+header .modal{
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 113px;
+}
+header .modal .center{
+    display: flex; 
+    align-items: center;
+    border: 2px solid #D9D9D9;
+    border-radius: 22px;
+    width: 620px;
+}
+header .modal .center button{
+    height: 45px;
+    width: 160px;
+    background-color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+header .modal .center button select{
+    border: none;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+}
+header .modal .center input{
+    width: 480px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: #D9D9D9;
+    font-size: 18px;
+    font-weight: 500;
+}
+header .modal .center i{
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    padding-top: 16px;
+    padding-left: 14px;
+}
+header .modal .registra{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+header .modal .registra .shop i{
+    font-size: 33px;
+    margin-top: 13px;
+}
+header .modal .registra .sena{
+    background-color: #509E2F;
+    width: 30px;
+    height: 27px;
+    position: absolute;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    top: -4px;
+    right: 60px;
+}
+header .anons{
+    width: 100%;
+    height: 435px;
+    margin-top: 20px;
+    background: url("../img/Background.png");
+    position: relative;
+}
+header .anons .text{
+    width: 560px;
+    height: 100%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+header .anons .text h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+}
+header .anons .text h1 span{
+    font-weight: 600;
+}
+header .anons .text button{
+    width: 270px;
+    height: 80px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Mina', sans-serif;
+}
+header .anons img{
+    width: 65px;
+}
+header .anons img:nth-child(2){
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+header .anons img:nth-child(3){
+    position: absolute;
+    top: 127px;
+    right: 0;
+}
+header .anons img:nth-child(4){
+    position: absolute;
+    top: 213px;
+    right: 0;
+}
+header .anons img:nth-child(5){
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+
+
+
+
+main{
+    margin-top: 32px;
+    display: flex; 
+    justify-content: space-between;
+    height: 1229px;
+}
+main .menu{
+    width: 300px;
+    height: 900px;
+}
+main .menu h1{
+    font-size: 50px;
+    color: #84BD00;
+    text-align: center;
+    font-family: 'Montez', handwriting;
+    font-weight: normal;
+    padding-bottom: 50px;
+
+}
+main .menu h2{
+    color: #84BD00;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 50px;
+}
+main .menu h3{
+    color: #84BD00;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 35px;
+        margin-left: 50px;
+}
+main .menu h4{
+    color: #84BD00;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 7px;
+        margin-left: 50px;
+}
+main .menu p{
+    font-size: 20px;
+    margin-top: 7px;
+        margin-left: 50px;
+}
+main .menu h5{
+    font-size: 22px;
+    margin-top: 7px;
+    font-weight: 400;
+        margin-left: 50px;
+}
+
+
+
+
+main .cards{
+    width: 725px;
+    height: 900px;
+    /* border: 2px solid black; */
+}
+main .cards .main-nav{
+    width: 100%;
+    height: 69px;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+    color: #509E2F;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0px 80px;
+
+}
+main .cards .main-nav h2{
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 20px;
+}
+main .cards h3{
+    margin-top: 40px;
+    font-family: 'Montez', handwriting;
+    font-size: 50px;
+    font-weight: 300;
+    color: #509E2F;
+}
+main .cards h3{
+    margin-top: 40px;
+    font-family: 'Montez', handwriting;
+    font-size: 50px;
+    font-weight: 300;
+    color: #509E2F;
+}
+i{
+    cursor: pointer;
+}
+main .cards .frame{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+main .cards .frame .card{
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .cards .frame .card .top{
+    display: flex;
+    justify-content: space-between;
+}
+main .cards .frame .card .top h5{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+}
+main .cards .frame .card .top .Price{
+    width: 46px;
+    height: 20px;
+    background-color: #509E2F;
+    display: flex;
+    margin-top: 7px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+main .cards .frame .card .main{
+    width: 100%;
+    height: 21px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+main .cards .frame .card .main p{
+    font-size: 12px;
+}
+main .cards .frame .card .main .imade{
+    width: 80px;
+}
+main .cards .frame .card .main .imade img{
+    width: 15px;
+    object-fit: contain;
+}
+main .cards .Fluter .card-img{
+    width: 100%;
+    height: 235px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+main .cards .Fluter .card-img img{
+    width: 215px;
+    object-fit: cover;
+    height: 230px;
+}
+
+
+
+main .image{
+    width: 376px;
+    height: 980px;
+    position: relative;
+}
+main .image img{
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background: url("../img/Background\ 2.png");
+    background-size: cover;
+    display: flex;
+    padding: 0px 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .card{
+    margin-left: 50px;
+    color: #fff;
+}
+footer .card-3{
+    margin-left: 50px;
+    color: #fff;
+}
+footer .card-3:nth-child(3){
+    margin-left: 50px;
+    color: #fff;
+}
+footer .card-3:nth-child(3) p:nth-child(5){
+    margin-bottom: 30px;
+}
+footer .card h2{
+    font-weight: 300;
+    margin-top: 13px;
+}
+footer .card-2{
+    width: 570px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .card-2 h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+footer .card-2 h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+footer .card-2 p{
+    font-size: 16px;
+    margin-top: 14px;
+    font-weight: 300;
+}
+footer .card-5{
+    color: #fff;
+    width: 400px;
+    height: 200px;
+}
+footer .card-5 h1{
+    font-family: 'Montez', handwriting;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+footer .card-5 .card{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+}
+footer .card-5 .card-10{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+footer .card-5 .card button{
+    width: 70px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    background-color: transparent;
+}
+footer .card-5 .card button i{
+    color: #fff;
+    font-size: 32px;
+    margin-left: 10px;
+}
+footer .card-5 .card input{
+    width: 315px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-right: 1px solid #fff;
+    color: #D9D9D9;
+    padding-left: 20px;
+}
+footer .card-5 .card input::placeholder{
+    font-size: 18px;
+}
+footer .card-5 .card-10 i{
+    font-size: 30px;
+    margin-left: 25px;
+}
